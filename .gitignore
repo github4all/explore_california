@@ -1,0 +1,11 @@
+# ignore these files
+tempfile.txt
+*.zip
+*.gz
+log/*.log
+
+# log files with date
+log/*.log.[0-9]
+
+# do not ignore these files
+!assets/videos/tour_*.mp4
